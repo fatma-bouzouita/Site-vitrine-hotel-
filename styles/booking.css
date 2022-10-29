@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    border:5px solid rgb(112, 102, 90);
+}
+
+body{
+    border:3px solid rgb(58, 34, 3);
+    margin:5px;
+    padding:5px;
+    background-color: rgba(247, 236, 229, 0.932);
+}
+
+header{
+    background-color: rgb(233, 213, 171);
+}
+
+header h1{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.d{
+    display:flex;
+    margin:20px;
+}
+
+.d1{
+    background-color: rgb(116, 67, 67);
+    flex:left;
+    width:50%;
+    font-size: 20px;
+}
+
+.d2{
+    background-color:rgb(108, 145, 137);
+    flex:right;
+    width:50%;
+    font-size: 20px;
+}
+
+input[type="text"],input[type="number"],input[type="date"],input[type="email"],input[type="url"],textarea,select{
+    color:rgb(46, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+select{
+    color:rgb(7, 7, 87);
+}
+
+.c1{
+    display:flex;
+    margin:20px;
+}
+
+.c2{
+    flex:left;
+    width:30%;
+    margin-top: 6px;
+}
+
+.c3{
+    flex:right;
+    width:70%;
+    margin-top: 6px;
+}
+
+form a{
+    text-decoration: none;
+    color: rgb(129, 118, 139);
+    font-weight: bold;
+    font-size:large;
+}

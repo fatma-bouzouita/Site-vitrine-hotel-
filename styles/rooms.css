@@ -1,0 +1,277 @@
+*
+{
+    box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+html
+{
+	height:100%;
+	scroll-behavior:smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	display:flex;
+	flex-direction:column;
+	min-height:100%;
+    background-color: rgb(245, 241, 237);
+   
+    
+  }
+  header{
+	position:relative;
+	height:120px;
+	background-color:rgb(201, 188, 156);
+	color:black;
+}
+
+header h1{
+	font-size:30px;
+	line-height:50px;
+	text-transform:uppercase;
+	margin-left:15px;
+	margin-right:15px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+header p{
+    margin-left:90px;
+    font-style: italic;
+    
+}
+header nav{
+	vertical-align: top;
+	display:inline-block;
+	margin-top:4px;
+
+}
+header nav ul{
+	
+	list-style-type:none;
+	
+}
+header nav ul li{
+	display:inline-block;
+	width:150px;
+	text-align:center;
+}
+header nav ul li a{
+	display:block;
+	line-height:40px;
+	color:rgb(99, 78, 52);
+	text-decoration:none;
+    font-weight:bold;
+}
+header nav ul li a:hover{
+	background-color:rgb(163, 152, 127);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container img{
+      width:50%;
+      height:600px;
+  }
+
+  .centered h4{
+      font-size: 20px;
+  }
+  .centered h1{
+    font-size: 40px;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  .centered p{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+  
+  }
+
+
+
+  .p11{
+    display:flex;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+.p11.ph{
+    flex:left;
+    width:70%;
+}
+.p11 .ph img{
+  height:400px;
+  margin-left: 20px;
+  width: 80%;
+}
+.p11 .tex{
+  flex:right;
+  width:60%;
+}
+.p11 .tex p{
+  font-size: 18px;
+  color:rgb(71, 5, 21);
+  margin-top:15px;
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.p12{
+  display:flex;
+  background-color:rgb(233, 217, 197);
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.p12 .tex{
+  flex:left;
+  width:50%;
+}
+.p12 .tex p{
+  color:rgb(58, 55, 55);
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  margin-right: 15px;
+}
+.p12 .tex h1{
+  font-size: 30px;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  margin:10px;
+  font-style: italic;
+}
+
+.p12 .ph{
+  flex:right;
+  width:60%;
+}
+.p12 .ph img{
+  height:400px;
+  margin: 10px;
+  width:80%;
+  
+
+}
+
+.p13{
+  display:flex;
+  margin-top: 50px;
+  margin-right: 15px;
+}
+.p13 .ph{
+  flex:left;
+  width:70%;
+}
+.p13 .ph img{
+height:400px;
+margin-left: 20px;
+width: 71%;
+}
+.p13 .tex{
+flex:right;
+width:60%;
+}
+.p13 .tex p{
+font-size: 18px;
+color:rgb(71, 5, 21);
+margin-top:15px;
+text-align: justify;
+margin-right: 15px;
+}
+
+hr{
+  width: 900px;
+  border:3px solid rgb(124, 97, 46);
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.tex hr{
+  width: 600px;
+  border:2px solid rgb(182, 159, 118);
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.tex ul{
+  margin-top:30px;
+}
+
+.tex li{
+  font-size: 20px;
+  color:rgb(73, 68, 68);
+  margin-left: 30px;
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.tex h1{
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.avai a{
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  background-color: rgb(219, 183, 128);
+  padding:20px;
+}
+.avai{
+  margin:20px;
+  margin-left:10px;
+  margin-top:25px;
+  float: right;
+  
+}
+
+footer{
+  background-color: rgb(146, 120, 98);
+  margin-top: 50px;
+  height:150px;
+  color:white;
+}
+.foo{
+  display:flex;
+  margin-left: 15px;
+}
+.foo1{
+  flex:left;
+  width:30%;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
+.foo1 p{
+  text-align: center;
+}
+.foo1 img{
+  height: 100px;
+  width:100px;
+  margin-left: 600px;
+  
+}
+.foo2{
+  flex:right;
+  width:50%;
+  padding-top: 25px;
+  margin-left:45%;
+  
+}
+
+.foo2 nav a{
+  text-decoration: none;
+  color:rgb(70, 34, 5);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 30px;
+}
